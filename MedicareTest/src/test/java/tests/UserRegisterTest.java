@@ -17,7 +17,7 @@ public class UserRegisterTest extends BaseTest{
 	@DataProvider(name="signupDetailsDataProvider")
 	public Object[][] signupDetailsDataProvider() {
 		return new Object[][]{
-			{"Ahmad", "Sadeq", "test123@test@test","9715555555","123456","USER","SZR Tower","SZR","Dubai","00000","Dubai","UAE"}
+			{"Ahmad", "Sadeq", "test123@test@tes","9715555555","123456","USER","SZR Tower","SZR","Dubai","00000","Dubai","UAE"}
 	};
 	}
 	
