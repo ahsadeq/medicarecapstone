@@ -24,7 +24,7 @@ public class BaseTest {
     @Parameters("browser")
     @BeforeClass
     public void startBrowser(String browser){
-        driver = new SeleniumDriverManager().getDriver();
+        driver = new SeleniumDriverManager().getDriver(browser);
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
