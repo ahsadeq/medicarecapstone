@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test  name="Test">
+   <parameter name="browser" value="chrome"></parameter>
+	      <classes>
+	<class name="tests.ValidLoginTest"></class>
+	<class name="tests.AdminAddNewProductTest"></class>
+	<class name="tests.AdminEditProductTest"></class>
+	<class name="tests.UserRegisterTest"></class>
+	<class name="tests.CompletePurchaseTest"></class>
+	<class name="tests.InvalidLoginTest"></class>
+	<class name="tests.EnableProductTest"></class>
+	<class name="tests.DisableProductTest"></class>
+	      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="227733" started-at="2022-06-03T18:03:32 GST" finished-at="2022-06-03T18:07:20 GST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="227733" started-at="2022-06-03T18:03:32 GST" finished-at="2022-06-03T18:07:20 GST">
+      <class name="tests.AdminEditProductTest">
+        <test-method status="PASS" signature="startBrowser(java.lang.String)[pri:0, instance:tests.AdminEditProductTest@6895a785]" name="startBrowser" is-config="true" duration-ms="6620" started-at="2022-06-03T18:04:33 GST" finished-at="2022-06-03T18:04:40 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="adminEditProductTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.AdminEditProductTest@6895a785]" name="adminEditProductTest" duration-ms="21823" started-at="2022-06-03T18:04:40 GST" data-provider="producteditpriceDataProvider" finished-at="2022-06-03T18:05:02 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vk@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aceclofenac]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminEditProductTest -->
+        <test-method status="PASS" signature="teardownBrowser()[pri:0, instance:tests.AdminEditProductTest@6895a785]" name="teardownBrowser" is-config="true" duration-ms="1967" started-at="2022-06-03T18:05:02 GST" finished-at="2022-06-03T18:05:04 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- tests.AdminEditProductTest -->
+      <class name="tests.CompletePurchaseTest">
+        <test-method status="PASS" signature="startBrowser(java.lang.String)[pri:0, instance:tests.CompletePurchaseTest@56aac163]" name="startBrowser" is-config="true" duration-ms="6195" started-at="2022-06-03T18:05:21 GST" finished-at="2022-06-03T18:05:28 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="a_addproduct2cart(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.CompletePurchaseTest@56aac163]" name="a_addproduct2cart" duration-ms="32706" started-at="2022-06-03T18:05:28 GST" data-provider="validloginDataProvider" finished-at="2022-06-03T18:06:00 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kn@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Aceclofenac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_addproduct2cart -->
+        <test-method status="PASS" signature="b_completePurchaseTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.CompletePurchaseTest@56aac163]" name="b_completePurchaseTest" duration-ms="8571" started-at="2022-06-03T18:06:00 GST" data-provider="cardPaymentdetailsDataProvider" finished-at="2022-06-03T18:06:09 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0123456789000000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[666]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_completePurchaseTest -->
+        <test-method status="PASS" signature="teardownBrowser()[pri:0, instance:tests.CompletePurchaseTest@56aac163]" name="teardownBrowser" is-config="true" duration-ms="1048" started-at="2022-06-03T18:06:09 GST" finished-at="2022-06-03T18:06:10 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- tests.CompletePurchaseTest -->
+      <class name="tests.DisableProductTest">
+        <test-method status="PASS" signature="startBrowser(java.lang.String)[pri:0, instance:tests.DisableProductTest@396f6598]" name="startBrowser" is-config="true" duration-ms="5564" started-at="2022-06-03T18:06:51 GST" finished-at="2022-06-03T18:06:56 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="enableProductTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.DisableProductTest@396f6598]" name="enableProductTest" duration-ms="22154" started-at="2022-06-03T18:06:56 GST" data-provider="productnameDataProvider" finished-at="2022-06-03T18:07:18 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vk@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Combiflame]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enableProductTest -->
+        <test-method status="PASS" signature="teardownBrowser()[pri:0, instance:tests.DisableProductTest@396f6598]" name="teardownBrowser" is-config="true" duration-ms="1359" started-at="2022-06-03T18:07:18 GST" finished-at="2022-06-03T18:07:20 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- tests.DisableProductTest -->
+      <class name="tests.EnableProductTest">
+        <test-method status="PASS" signature="startBrowser(java.lang.String)[pri:0, instance:tests.EnableProductTest@5a1c0542]" name="startBrowser" is-config="true" duration-ms="6030" started-at="2022-06-03T18:06:21 GST" finished-at="2022-06-03T18:06:27 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="enableProductTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.EnableProductTest@5a1c0542]" name="enableProductTest" duration-ms="21898" started-at="2022-06-03T18:06:27 GST" data-provider="productnameDataProvider" finished-at="2022-06-03T18:06:49 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vk@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Combiflame]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enableProductTest -->
+        <test-method status="PASS" signature="teardownBrowser()[pri:0, instance:tests.EnableProductTest@5a1c0542]" name="teardownBrowser" is-config="true" duration-ms="1877" started-at="2022-06-03T18:06:49 GST" finished-at="2022-06-03T18:06:51 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- tests.EnableProductTest -->
+      <class name="tests.UserRegisterTest">
+        <test-method status="PASS" signature="startBrowser(java.lang.String)[pri:0, instance:tests.UserRegisterTest@184f6be2]" name="startBrowser" is-config="true" duration-ms="7438" started-at="2022-06-03T18:05:04 GST" finished-at="2022-06-03T18:05:11 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="userRegisterTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.UserRegisterTest@184f6be2]" name="userRegisterTest" duration-ms="9231" started-at="2022-06-03T18:05:11 GST" data-provider="signupDetailsDataProvider" finished-at="2022-06-03T18:05:20 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ahmad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sadeq]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kjdhjdf@aaaa.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9715555555]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[USER]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[SZR Tower]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[SZR]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Dubai]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[00000]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Dubai]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[UAE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegisterTest -->
+        <test-method status="PASS" signature="teardownBrowser()[pri:0, instance:tests.UserRegisterTest@184f6be2]" name="teardownBrowser" is-config="true" duration-ms="1065" started-at="2022-06-03T18:05:20 GST" finished-at="2022-06-03T18:05:21 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- tests.UserRegisterTest -->
+      <class name="tests.AdminAddNewProductTest">
+        <test-method status="PASS" signature="startBrowser(java.lang.String)[pri:0, instance:tests.AdminAddNewProductTest@48503868]" name="startBrowser" is-config="true" duration-ms="6732" started-at="2022-06-03T18:03:58 GST" finished-at="2022-06-03T18:04:04 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="AdmindAddNewProductTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.AdminAddNewProductTest@48503868]" name="AdmindAddNewProductTest" duration-ms="27576" started-at="2022-06-03T18:04:04 GST" data-provider="details" finished-at="2022-06-03T18:04:32 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vk@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Panadol Extra]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Panadol]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Instant Pain Killer]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[C:\Users\Ahmad\MedicareTest\ProductImage\Panadolextra.jpg]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Pain Reliever]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdmindAddNewProductTest -->
+        <test-method status="PASS" signature="teardownBrowser()[pri:0, instance:tests.AdminAddNewProductTest@48503868]" name="teardownBrowser" is-config="true" duration-ms="1248" started-at="2022-06-03T18:04:32 GST" finished-at="2022-06-03T18:04:33 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- tests.AdminAddNewProductTest -->
+      <class name="tests.ValidLoginTest">
+        <test-method status="PASS" signature="startBrowser(java.lang.String)[pri:0, instance:tests.ValidLoginTest@10bbd20a]" name="startBrowser" is-config="true" duration-ms="20576" started-at="2022-06-03T18:03:32 GST" finished-at="2022-06-03T18:03:53 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="validLoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.ValidLoginTest@10bbd20a]" name="validLoginTest" duration-ms="4122" started-at="2022-06-03T18:03:53 GST" data-provider="validloginDataProvider" finished-at="2022-06-03T18:03:57 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kn@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kavita Nigam]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="teardownBrowser()[pri:0, instance:tests.ValidLoginTest@10bbd20a]" name="teardownBrowser" is-config="true" duration-ms="797" started-at="2022-06-03T18:03:57 GST" finished-at="2022-06-03T18:03:58 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- tests.ValidLoginTest -->
+      <class name="tests.InvalidLoginTest">
+        <test-method status="PASS" signature="startBrowser(java.lang.String)[pri:0, instance:tests.InvalidLoginTest@1f7030a6]" name="startBrowser" is-config="true" duration-ms="6832" started-at="2022-06-03T18:06:10 GST" finished-at="2022-06-03T18:06:17 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="invalidLoginTest(java.lang.String, java.lang.String)[pri:0, instance:tests.InvalidLoginTest@1f7030a6]" name="invalidLoginTest" duration-ms="3039" started-at="2022-06-03T18:06:17 GST" data-provider="invalidloginDataProvider" finished-at="2022-06-03T18:06:20 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kn@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6666]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method status="PASS" signature="teardownBrowser()[pri:0, instance:tests.InvalidLoginTest@1f7030a6]" name="teardownBrowser" is-config="true" duration-ms="1044" started-at="2022-06-03T18:06:20 GST" finished-at="2022-06-03T18:06:21 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- tests.InvalidLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
