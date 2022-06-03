@@ -21,8 +21,8 @@ public class BaseTest {
 
     String homePageUrl = Config.getProperty("HOME_PAGE_URL");
 
-    @BeforeClass
     @Parameters({"browser"})
+    @BeforeClass
     public void startBrowser(String browser){
         driver = new SeleniumDriverManager().getDriver();
         driver.manage().window().maximize();
