@@ -21,7 +21,7 @@ public class BaseTest {
 
     String homePageUrl = Config.getProperty("HOME_PAGE_URL");
 
-    @Parameters({"browser"})
+    @Parameters("browser")
     @BeforeClass
     public void startBrowser(String browser){
         driver = new SeleniumDriverManager().getDriver();
