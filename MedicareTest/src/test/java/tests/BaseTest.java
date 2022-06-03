@@ -20,12 +20,13 @@ public class BaseTest {
     public WebDriver driver;
 
     String homePageUrl = Config.getProperty("HOME_PAGE_URL");
+    String aaa="chrome";
 
-    @Parameters({"browser"})
+//     @Parameters({"browser"})
     @BeforeClass
     
-    public void startBrowser(String browser){
-        driver = new SeleniumDriverManager().getDriver(browser);
+    public void startBrowser(){
+        driver = new SeleniumDriverManager().getDriver(aaa);
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
